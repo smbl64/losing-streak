@@ -37,6 +37,6 @@ func main() {
 func calculate(numLoses, totalTrades int, winRate float64) float64 {
 	// Formula taken from:
 	// https://www.forexfactory.com/thread/post/4336468#post4336468
-	// It matches the table shared on the Internet and FTMO
+	// It matches the table made by FTMO
 	return 1 - math.Pow(1-math.Pow(1-winRate, float64(numLoses)), float64(totalTrades-(numLoses-1)))
 }
