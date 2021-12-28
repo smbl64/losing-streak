@@ -1,4 +1,4 @@
-# Losing Streak
+# Losing streak
 
 A simply Go application to calculate the probability of seeing at least X consecutive losing trades within a N-trade period.
 
@@ -27,3 +27,5 @@ Probability of seeing at least (X) consecutive losing trades within a 50-trade p
  90%       38.9     4.7     0.5     0.0     0.0     0.0     0.0     0.0     0.0     0.0
  95%       11.5     0.6     0.0     0.0     0.0     0.0     0.0     0.0     0.0     0.0
 ```
+
+In the table above you can see that there is a `71.3%` chance of seeing at least 7 consecutive losing trades with a winning rate of 40%.
